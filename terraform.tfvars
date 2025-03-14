@@ -1,0 +1,10 @@
+aws_region         = "us-east-2"
+db_cluster_identifier  = "supernova-mysql-cluster"
+db_name            = "supernovadb"
+db_username        = "admin"
+db_password        = "supernova!123"
+vpc_id             = "vpc-04b5ea9fdcd958e9c"
+subnet_ids         = ["subnet-01c187a1c7d1c986e", "subnet-0125984fc26279048", "subnet-08713d4bd5aa95d42"]
+instance_class     = "db.m5d.large"
+allocated_storage  = 20
+allowed_cidr       = "10.5.0.0/22"
