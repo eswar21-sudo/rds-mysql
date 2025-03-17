@@ -1,4 +1,4 @@
-aws_region         = "us-east-2"
+aws_region         = "us-east-1"
 db_cluster_identifier  = "supernova-mysql-cluster"
 db_name            = "supernovadb"
 db_username        = "admin"
